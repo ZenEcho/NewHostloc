@@ -21,8 +21,10 @@ pip3 install requests
 cd hostloc2tg 
 #修改bot api token和chat id
 vi hostloc2tg_api.py    
-#最后运行：hostloc.txt是log出错了请自行排查
+#最后运行：hostloc.txt是log文件出错了请自行排查
 nohup python3 -u hostloc2tg_api.py >> hostloc.txt 2>&1 &
 ```
+# 效果
+![image](https://user-images.githubusercontent.com/56901101/162135550-1024f317-f7dc-420e-8163-7a76527bc269.png)
 
 
