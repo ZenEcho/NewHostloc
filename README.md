@@ -12,7 +12,7 @@
 
 可以尝试一下是否可以发信息
 ```bash
-https://api.telegram.org/bot这里填你的Token/sendMessage?chat_id=这里填频道id注意要加@&text=测试测试
+https://api.telegram.org/bot这里填Token值/sendMessage?parse_mode=HTML&chat_id=这里填频道id值&text=这里是内容
 ```
 
 # 服务器部署
