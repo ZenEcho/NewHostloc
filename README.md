@@ -17,15 +17,15 @@ https://api.telegram.org/bot这里填Token值/sendMessage?parse_mode=HTML&chat_i
 
 # 服务器部署
 ```bash
-git clone https://github.com/youheiss/hostloc2tg.git
+git clone https://github.com/youheiss/NewHostloc.git
 yum install python3 
 #安装requests，如果程序没运行起来多半是安装了Python2
 pip3 install requests   
-cd hostloc2tg 
+cd NewHostloc
 #修改bot api token和chat id
-vi hostloc2tg_api.py    
+vi hostloc.py    
 #最后运行：hostloc.txt是log文件出错了请自行排查
-nohup python3 -u hostloc2tg_api.py >> hostloc.txt 2>&1 &
+nohup python3 -u hostloc.py >> hostloc.txt 2>&1 &
 ```
 # 效果
 ![image](https://user-images.githubusercontent.com/56901101/162135550-1024f317-f7dc-420e-8163-7a76527bc269.png)
