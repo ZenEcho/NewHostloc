@@ -1,6 +1,9 @@
 # NewHostloc新帖推送机
+
 **为了多喝两碗汤**
+
 原作者：https://github.com/w2r/hostloc2tg
+
 # 使用说明
 
 **1.到@BotFather创建一个机器人并保存Token值（若要推送到频道，将机器人添加到频道，并给予管理员权限）**
